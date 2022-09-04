@@ -1,382 +1,50 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>gutorov-cv</title>
-
-
-<style type="text/css">
-body {
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  padding: 30px; }
-
-body > *:first-child {
-  margin-top: 0 !important; }
-body > *:last-child {
-  margin-bottom: 0 !important; }
-
-a {
-  color: #4183C4; }
-a.absent {
-  color: #cc0000; }
-a.anchor {
-  display: block;
-  padding-left: 30px;
-  margin-left: -30px;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
-  padding: 0;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  cursor: text;
-  position: relative; }
-
-h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
-  text-decoration: none; }
-
-h1 tt, h1 code {
-  font-size: inherit; }
-
-h2 tt, h2 code {
-  font-size: inherit; }
-
-h3 tt, h3 code {
-  font-size: inherit; }
-
-h4 tt, h4 code {
-  font-size: inherit; }
-
-h5 tt, h5 code {
-  font-size: inherit; }
-
-h6 tt, h6 code {
-  font-size: inherit; }
-
-h1 {
-  font-size: 28px;
-  color: black; }
-
-h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #cccccc;
-  color: black; }
-
-h3 {
-  font-size: 18px; }
-
-h4 {
-  font-size: 16px; }
-
-h5 {
-  font-size: 14px; }
-
-h6 {
-  color: #777777;
-  font-size: 14px; }
-
-p, blockquote, ul, ol, dl, li, table, pre {
-  margin: 15px 0; }
-
-hr {
-  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
-  border: 0 none;
-  color: #cccccc;
-  height: 4px;
-  padding: 0;
-}
-
-body > h2:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-body > h1:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-  body > h1:first-child + h2 {
-    margin-top: 0;
-    padding-top: 0; }
-body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-
-a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0; }
-
-h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
-  margin-top: 0; }
-
-li p.first {
-  display: inline-block; }
-li {
-  margin: 0; }
-ul, ol {
-  padding-left: 30px; }
-
-ul :first-child, ol :first-child {
-  margin-top: 0; }
-
-dl {
-  padding: 0; }
-  dl dt {
-    font-size: 14px;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0;
-    margin: 15px 0 5px; }
-    dl dt:first-child {
-      padding: 0; }
-    dl dt > :first-child {
-      margin-top: 0; }
-    dl dt > :last-child {
-      margin-bottom: 0; }
-  dl dd {
-    margin: 0 0 15px;
-    padding: 0 15px; }
-    dl dd > :first-child {
-      margin-top: 0; }
-    dl dd > :last-child {
-      margin-bottom: 0; }
-
-blockquote {
-  border-left: 4px solid #dddddd;
-  padding: 0 15px;
-  color: #777777; }
-  blockquote > :first-child {
-    margin-top: 0; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
-
-table {
-  padding: 0;border-collapse: collapse; }
-  table tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
-    margin: 0;
-    padding: 0; }
-    table tr:nth-child(2n) {
-      background-color: #f8f8f8; }
-    table tr th {
-      font-weight: bold;
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr td {
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr th :first-child, table tr td :first-child {
-      margin-top: 0; }
-    table tr th :last-child, table tr td :last-child {
-      margin-bottom: 0; }
-
-img {
-  max-width: 100%; }
-
-span.frame {
-  display: block;
-  overflow: hidden; }
-  span.frame > span {
-    border: 1px solid #dddddd;
-    display: block;
-    float: left;
-    overflow: hidden;
-    margin: 13px 0 0;
-    padding: 7px;
-    width: auto; }
-  span.frame span img {
-    display: block;
-    float: left; }
-  span.frame span span {
-    clear: both;
-    color: #333333;
-    display: block;
-    padding: 5px 0 0; }
-span.align-center {
-  display: block;
-  overflow: hidden;
-  clear: both; }
-  span.align-center > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px auto 0;
-    text-align: center; }
-  span.align-center span img {
-    margin: 0 auto;
-    text-align: center; }
-span.align-right {
-  display: block;
-  overflow: hidden;
-  clear: both; }
-  span.align-right > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px 0 0;
-    text-align: right; }
-  span.align-right span img {
-    margin: 0;
-    text-align: right; }
-span.float-left {
-  display: block;
-  margin-right: 13px;
-  overflow: hidden;
-  float: left; }
-  span.float-left span {
-    margin: 13px 0 0; }
-span.float-right {
-  display: block;
-  margin-left: 13px;
-  overflow: hidden;
-  float: right; }
-  span.float-right > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px auto 0;
-    text-align: right; }
-
-code, tt {
-  margin: 0 2px;
-  padding: 0 5px;
-  white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  border-radius: 3px; }
-
-pre code {
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  border: none;
-  background: transparent; }
-
-.highlight pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
-
-pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
-  pre code, pre tt {
-    background-color: transparent;
-    border: none; }
-
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
-
-kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 11px;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb
-}
-
-* {
-	-webkit-print-color-adjust: exact;
-}
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:0 auto;
-    }
-}
-@media print {
-	table, pre {
-		page-break-inside: avoid;
-	}
-	pre {
-		word-wrap: break-word;
-	}
-}
-</style>
-
-
-</head>
-
-<body>
-
-<h1 id="toc_0">Vladimir Gutorov</h1>
-
+<h1 id="volodymyr-gutorov-download-full-cv-autobiography-gutorov-volodymyr-cv-2022-pdf-">Volodymyr Gutorov (<a href="./gutorov-volodymyr-cv-2022.pdf">Download Full CV &amp; Autobiography</a>)</h1>
 <hr>
-
-<h2 id="toc_1">Profession</h2>
-
+<h2 id="profession">Profession</h2>
 <ul>
 <li>Job title: <strong>Engineer</strong></li>
 <li>Common specialization:  <strong>FrontEnd</strong></li>
 <li>Addition specialization: <strong>UI/UX architect</strong></li>
 </ul>
-
-<h2 id="toc_2">BIO</h2>
-
+<h2 id="bio">BIO</h2>
 <blockquote>
 <p><img style="float: right; margin-left: 40px." src="./cv.png"> 
-<strong>Male, 26 years old / 22.02.1992</strong></p>
-
-<p>&quot; Hey! My name is Vladimir Gutorov. I&#39;m a WEB developer with job experience more than 6 years. How a developer, I&#39;m working since 2012. My career has been started from the try to build the own web service, but this try was slammed because I was not so experienced in the market&#39;s process and sure I didn&#39;t have enough funds to run this startup. But this try showed me how development can help to resolve people&#39;s needs, how it&#39;s simple and fun. Since 2012 I don&#39;t stop to learn new technologies, I still feel that I&#39;m a young student with hunger to self-development and can&#39;t predict when I gonna stop... but I`m sure it happens not so soon, because each day I understand that it&#39;s just a beginning and how deep and exciting the tech world is.&quot;</p>
+<strong>Male, 30 years old / 22.02.1992</strong></p>
+<p>&quot; Hey! My name is Volodymyr Gutorov. I&#39;m a WEB developer with job experience more than 9 years. How a developer, I&#39;m working since 2012. My career has been started from the try to build the own web service, but this try was slammed because I was not so experienced in the market&#39;s process and sure I didn&#39;t have enough funds to run this startup. But this try showed me how development can help to resolve people&#39;s needs, how it&#39;s simple and fun. Since 2012 I don&#39;t stop to learn new technologies, I still feel that I&#39;m a young student with hunger to self-development and can&#39;t predict when I gonna stop... but I`m sure it happens not so soon, because each day I understand that it&#39;s just a beginning and how deep and exciting the tech world is.&quot;</p>
 </blockquote>
-
-<h2 id="toc_3">Career</h2>
-
-<h3 id="toc_4">Merit Labs (Jan 2018 - Nov 2018)</h3>
-
+<h2 id="career">Career</h2>
+<h3 id="litigate-nov-2018-sep-2022-">LitiGate (Nov 2018 - Sep 2022)</h3>
 <blockquote>
-<p><em>&quot;Merit aims to be the world’s friendliest digital currency and hopes to do this by being three things above all others: simple, safe, and a community.  Merit innovates by rewarding stewards of the network in addition to traditional miners with each block that is issued.&quot; <a href="https://www.merit.me/" target="_blank">Website reference</a></em></p>
+<p><em>&quot;Helping lawyers around the world to transform their manual tasks and data analysis work.&quot; <a href="https://www.litigate.ai/">Website reference</a></em></p>
 </blockquote>
-
 <ul>
-<li>Job title: <strong>Engineer</strong></li>
+<li>Job title: <strong>Team Lead of Platform Team</strong></li>
 <li>Common specialization:  <strong>FrontEnd</strong></li>
 <li>Addition specialization: <strong>UI/UX architect</strong></li>
 </ul>
-
-<p>I joined the Merit team as a part-time developer to architecting and launch marketing site for BlockChain startUp. After 4 months of the work, I received an official offer to join the Core team as UI/UX Engineer from the Merit CEO Adil Wali <a href="https://www.linkedin.com/in/adilwali/">LinkedIn</a>. In the Merit Labs I was working with the architecting and development Saas and SPA applications for Merit infrastructure:</p>
-
+<p>I joined LitiGate project when it was a startup without MVP, and pass the way from small startup to product which can sell. </p>
+<h3 id="merit-labs-jan-2018-nov-2018-">Merit Labs (Jan 2018 - Nov 2018)</h3>
+<blockquote>
+<p><em>&quot;Merit aims to be the world’s friendliest digital currency and hopes to do this by being three things above all others: simple, safe, and a community.  Merit innovates by rewarding stewards of the network in addition to traditional miners with each block that is issued.&quot; <a href="https://www.merit.me/">Website reference</a></em></p>
+</blockquote>
 <ul>
-<li><a href="https://wallet.merit.me" target="_blank">Light Wallet</a></li>
-<li><a href="https://dashboard.merit.me/" target="_blank">BlockChain dashboard</a></li>
-<li><a href="https://discord-bot.merit.me/get-invite/?source=Merit.me" target="_blank">Invite application</a></li>
-<li><a href="https://support-application.merit.me/get-help/#/" target="_blank">Support chat application</a></li>
-<li><a href="https://market.merit.me" target="_blank">MeritMarket</a></li>
-<li><a href="https://www.merit.me/" target="_blank">Marketing Site</a></li>
-<li><a href="https://gbs.merit.me/" target="_blank">GBS Site</a></li>
+<li>Job title: <strong>Engineer</strong><ul>
+<li>Common specialization:  <strong>FrontEnd</strong></li>
+<li>Addition specialization: <strong>UI/UX architect</strong></li>
 </ul>
-
+</li>
+</ul>
+<p>I joined the Merit team as a part-time developer to architecting and launch marketing site for BlockChain startUp. After 4 months of the work, I received an official offer to join the Core team as UI/UX Engineer from the Merit CEO Adil Wali <a href="https://www.linkedin.com/in/adilwali/">LinkedIn</a>. In the Merit Labs I was working with the architecting and development Saas and SPA applications for Merit infrastructure:</p>
+<ul>
+<li><a href="https://wallet.merit.me">Light Wallet</a></li>
+<li><a href="https://dashboard.merit.me/">BlockChain dashboard</a></li>
+<li><a href="https://discord-bot.merit.me/get-invite/?source=Merit.me">Invite application</a></li>
+<li><a href="https://support-application.merit.me/get-help/#/">Support chat application</a></li>
+<li><a href="https://market.merit.me">MeritMarket</a></li>
+<li><a href="https://www.merit.me/">Marketing Site</a></li>
+<li><a href="https://gbs.merit.me/">GBS Site</a></li>
+</ul>
 <p>For that time I was working with technologies:</p>
-
 <ul>
 <li>Angular 5/6</li>
 <li>Node.JS</li>
@@ -395,36 +63,26 @@ kbd {
 <li>Firebase</li>
 <li>Heroku</li>
 </ul>
-
 <p>Also, I had a chance to manage the outsource stuff for speed up collaboration process and delivering high-level developed applications in shortest possible time.</p>
-
-<h2 id="toc_5"></h2>
-
-<h3 id="toc_6">LumoSpark (Aug 2015 - May 2018)</h3>
-
+<p>-</p>
+<h3 id="lumospark-aug-2015-may-2018-">LumoSpark (Aug 2015 - May 2018)</h3>
 <blockquote>
-<p>Digital marketing agency <a href="https://www.lumospark.com/" target="_blank">Website reference</a></p>
+<p>Digital marketing agency <a href="https://www.lumospark.com/">Website reference</a></p>
 </blockquote>
-
 <ul>
 <li>Job title: <strong>Team/Techlead</strong></li>
 <li>Common specialization:  <strong>FrontEnd</strong></li>
 </ul>
-
-<p>I joined LumoSpark team as a FrontEnd developer, after a couple months I got an offer to take a TeamLead position from the CEO Artem Daniliants <a href="https://www.linkedin.com/in/artemdaniliants/" target="_blank">LinkedIn</a>.
+<p>I joined LumoSpark team as a FrontEnd developer, after a couple months I got an offer to take a TeamLead position from the CEO Artem Daniliants <a href="https://www.linkedin.com/in/artemdaniliants/">LinkedIn</a>.
 For the period in the LumoSpart I was developing ßßMarketing Websites, SPA, and Saas applications, also I was developing applications&#39; architecture, learned marketing principles, Improved my skills in applications&#39; UX. Through this period I developed around 100 websites and 15 Saas/SPA applications, here the examples of which I brightly remember:</p>
-
 <ul>
 <li>ERP system &quot;Gravity&quot; for Event Marketing agency (Server + UI/UX part + Database architecting)</li>
-<li>SPA application for &quot;Kärkikuponki&quot; startUp (application seem closed, <a href="https://www.facebook.com/Karkikuponki/" target="_blank">Facebook</a> there placed screens of the application,) This application was working with GoogleMaps API and displayed discount coupons near your location.</li>
-<li><a href="http://promilless-laskuri.fi/fi" target="_blank">&quot;PROMILLESS-LASKURI&quot; Marketing SPA (alcohol calculator)</a></li>
+<li>SPA application for &quot;Kärkikuponki&quot; startUp (application seem closed, <a href="https://www.facebook.com/Karkikuponki/">Facebook</a> there placed screens of the application,) This application was working with GoogleMaps API and displayed discount coupons near your location.</li>
+<li><a href="http://promilless-laskuri.fi/fi">&quot;PROMILLESS-LASKURI&quot; Marketing SPA (alcohol calculator)</a></li>
 <li>Booking system for Real estate agency</li>
 </ul>
-
 <p>For that period, I got a chance to work with world-class companies as &quot;Polar&quot; and &quot;Oura&quot;. After some time ~1y., in this company, I tried different roles, one of them was a Techlead, I communicated with potential/existing customers, was interviewing candidates and help them to adopt in the company. But most hard and probably most exciting part was - public speaking, for this time I took participation in LumoStartUp conference and was speaking to audience ~400 listeners, also I did educational MeetUps, part of them was created for students in the university.</p>
-
 <p>For that time I was working with technologies:</p>
-
 <ul>
 <li>Node.JS</li>
 <li>JavaScript</li>
@@ -441,45 +99,31 @@ For the period in the LumoSpart I was developing ßßMarketing Websites, SPA, an
 <li>MongoDB</li>
 <li>Heroku</li>
 </ul>
-
-<h3 id="toc_7">DDI Development (May 2015 - Aug 2015)</h3>
-
+<h3 id="ddi-development-may-2015-aug-2015-">DDI Development (May 2015 - Aug 2015)</h3>
 <blockquote>
-<p>The DDI development is a solid outsource team of dedicated experts with the seven-yearlong experience in delivering profitable software products to our clients. <a href="http://ddi-dev.com/" target="_blank">site</a></p>
+<p>The DDI development is a solid outsource team of dedicated experts with the seven-yearlong experience in delivering profitable software products to our clients. <a href="http://ddi-dev.com/">site</a></p>
 </blockquote>
-
 <p>In this company I was working as outsource FrontEnd developer, my role was development UI part for the SPA and websites.</p>
-
 <p>Sure this is the not full timeline of my career, also I was working:</p>
-
 <ul>
 <li>&quot;Slavna&quot; (Feb 2014 - Aug 2015)</li>
 <li>&quot;self-employed/Freelancer&quot; (Apr 2012 - Aug 2015)</li>
 </ul>
-
 <p>If be fair this period was the period of the first steps and self-development, but in the &quot;Slavna&quot; I have tried a role of the head of the marketing department. It was the first try of my management skills.</p>
-
-<h2 id="toc_8">Education</h2>
-
-<h3 id="toc_9">Hight / Specialist (2009 - 2014)</h3>
-
+<h2 id="education">Education</h2>
+<h3 id="hight-specialist-2009-2014-">Hight / Specialist (2009 - 2014)</h3>
 <ul>
 <li><strong>Place: Simon Kuznets Kharkiv National University of Economics</strong></li>
 <li><strong>Faculty: of Economic Informatics</strong></li>
 <li><strong>Specialization: Information systems and technologies</strong></li>
 </ul>
-
-<h3 id="toc_10">Middle(school) (1999 - 2009)</h3>
-
-<h2 id="toc_11">References / contact information</h2>
-
+<h3 id="middle-school-1999-2009-">Middle(school) (1999 - 2009)</h3>
+<h2 id="references-contact-information">References / contact information</h2>
 <p>✉️ <strong>Email: vlgutv@gmail.com</strong><br>
 📱 <strong>Mobile / Telegram: +380957203532</strong><br>
-🔗 <a href="https://www.linkedin.com/in/vladimir-gutorov-93b253a5/" target="_blank">LinkedIn</a><br>
-🔗<a href="https://github.com/Gutorov" target="_blank">Github, 4,098 contributions in the last year</a></p>
-
-<h2 id="toc_12">Hard skills:</h2>
-
+🔗 <a href="https://www.linkedin.com/in/vladimir-gutorov-93b253a5/">LinkedIn</a><br>
+🔗<a href="https://github.com/Gutorov">Github, 4,098 contributions in the last year</a></p>
+<h2 id="hard-skills-">Hard skills:</h2>
 <p>✅ JavaScript<br>
 ✅ TypeScript<br>
 ✅ NodeJS<br>
@@ -496,17 +140,13 @@ For the period in the LumoSpart I was developing ßßMarketing Websites, SPA, an
 ✅ HUGO, Netlify, DATO CMS<br>
 ✅ Linux, Mac, Windows<br>
 etc....</p>
-
-<h2 id="toc_13">Soft skills:</h2>
-
+<h2 id="soft-skills-">Soft skills:</h2>
 <p>✅ Passion to my work<br>
 ✅ Attention to details<br>
 ✅ Ability to understand people and their needs/problems<br>
 ✅ Responsibility<br>
 ✅ Hight productivity</p>
-
-<h2 id="toc_14">What I do in the spare time</h2>
-
+<h2 id="what-i-do-in-the-spare-time">What I do in the spare time</h2>
 <ul>
 <li>work in GYM</li>
 <li>spend time with family</li>
@@ -514,10 +154,3 @@ etc....</p>
 <li>play PS4 games</li>
 <li>write code</li>
 </ul>
-
-
-
-
-</body>
-
-</html>
