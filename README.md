@@ -1,4 +1,4 @@
-# Vladimir Gutorov
+# Volodymyr Gutorov
 
 ***
 
@@ -12,12 +12,23 @@
 ## BIO
 
 > <img style="float: right; margin-left: 40px." src="./cv.png"> 
-> **Male, 26 years old / 22.02.1992**
+> **Male, 30 years old / 22.02.1992**
 > 
-> " Hey! My name is Vladimir Gutorov. I'm a WEB developer with job experience more than 6 years. How a developer, I'm working since 2012. My career has been started from the try to build the own web service, but this try was slammed because I was not so experienced in the market's process and sure I didn't have enough funds to run this startup. But this try showed me how development can help to resolve people's needs, how it's simple and fun. Since 2012 I don't stop to learn new technologies, I still feel that I'm a young student with hunger to self-development and can't predict when I gonna stop... but I`m sure it happens not so soon, because each day I understand that it's just a beginning and how deep and exciting the tech world is."
+> " Hey! My name is Volodymyr Gutorov. I'm a WEB developer with job experience more than 9 years. How a developer, I'm working since 2012. My career has been started from the try to build the own web service, but this try was slammed because I was not so experienced in the market's process and sure I didn't have enough funds to run this startup. But this try showed me how development can help to resolve people's needs, how it's simple and fun. Since 2012 I don't stop to learn new technologies, I still feel that I'm a young student with hunger to self-development and can't predict when I gonna stop... but I`m sure it happens not so soon, because each day I understand that it's just a beginning and how deep and exciting the tech world is."
 
 
 ## Career
+
+
+### LitiGate (Nov 2018 - Sep 2022)
+
+> _"Helping lawyers around the world to transform their manual tasks and data analysis work." [Website reference](https://www.litigate.ai/)_
+
+- Job title: __Team Lead of Platform Team__
+- Common specialization:  __FrontEnd__
+- Addition specialization: __UI/UX architect__
+
+I joined LitiGate project when it was a startup without MVP, and pass the way from small startup to product which can sell. 
 
 ### Merit Labs (Jan 2018 - Nov 2018)
 
